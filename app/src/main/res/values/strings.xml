@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">iApp</string>
+    <string name="colourBlindTest">Colour Blind Test</string>
+    <string name="visionTest">Vision Test</string>
+    <string name="perspectiveColourBlindTest">Perspective Colour Blind Test</string>
+    <string name="colourBlindTestDescription">Okay! </string>
+    <string name="enterNumber">Enter Number</string>
+    <string name="enterLetter">Enter Letter</string>
+    <string name="goToTest2">Go To Test 2</string>
+    <string name="goToTest3">Go To Test 3</string>
+    <string name="goToTest4">Go To Test 4</string>
+    <string name="goToTest5">Go To Test 5</string>
+    <string name="goToTest6">Go To Test 6</string>
+    <string name="goToTestDescription2"> Test your other eye!</string>
+    <string name="goToTest7">Go To Test 7</string>
+    <string name="goToTest8">Go To Test 8</string>
+    <string name="goToTest9">Go To Test 9</string>
+    <string name="goToTest10">Go To Test 10</string>
+    <string name="mediumRisk">Medium Risk of ColourBlindness. Please find your nearest Optometrist for queries</string>
+    <string name="lowRisk">Low Risk of ColourBlindness. Please find your nearest Optometrist for queries</string>
+    <string name="goToColourBlindTestResult">See your Result!</string>
+    <string name="goToVisionTestResult">See your Result!</string>
+    <string name="findNearestOptometrist">Click Here to find your nearest Optometrist!</string>
+    <string name="failedVisionTest">Click Here to find your nearest Optometrist!</string>
+    <string name="passedColourBlindTest">You are fine. Click Here to go back to the main page!</string>
+    <string name="passedVisionTest">Click Here to go back to the main page!</string>
+    <string name="VisionTest1_K">K</string>
+    <string name="VisionTest2_V">V</string>
+    <string name="VisionTest3_W">W</string>
+    <string name="VisionTest4_U">U</string>
+    <string name="VisionTest5_R">R</string>
+    <string name="VisionTest6_X">X</string>
+    <string name="VisionTest7_H">H</string>
+    <string name="VisionTest8_P">P</string>
+    <string name="VisionTest9_S">S</string>
+    <string name="VisionTest10_F">F</string>
+    <string name="title_activity_nearest_optometrist">Map</string>
+    <string name="yourResult">Your Result is:</string>
+    <string name="title_activity_my_location">Map</string>
+    <string name="goToBattery">Click here to see if you have enough Battery to make it to the Optometrist!</string>
+    <string name="myBattery">My Battery</string>
+    <string name="battery_level">Battery level:</string>
+
+
+
+
+
+</resources>

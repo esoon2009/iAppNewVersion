@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.user.iapp.VisionTestFailed">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/visionResult"
+        android:text="Risk of having impaired Vision.Please click the button below to find your nearest Optometrist!"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Risk of having impaired Vision.Please click the button below to find your nearest Optometrist!"/>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/failedVisionTest"
+        android:onClick="onClick_goToFindNearestOptometrist"
+        android:text="@string/failedVisionTest"
+        />
+</LinearLayout>

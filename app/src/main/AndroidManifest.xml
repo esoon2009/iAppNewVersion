@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.iapp">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+        <uses-permission android:name="android.permission.ACCESS_INTERNET" />
+        <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+        <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+        <uses-permission android:name="android.permission.READ_GSERVICES" />
+        <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".VisionTest" />
+        <activity android:name=".ColourBlindTest" />
+        <activity android:name=".PerspectiveColourBlindTest" />
+        <activity android:name=".ColourBlindTest1" />
+        <activity android:name=".ColourBlindTest2" />
+        <activity android:name=".ColourBlindTest3" />
+        <activity android:name=".ColourBlindTestDescription" />
+        <activity android:name=".ColourBlindTestResult" />
+        <activity android:name=".ColourBlindTestPassed" />
+        <activity android:name=".ColourBlindTestFailed" />
+        <activity android:name=".VisionTestDescription" />
+        <activity android:name=".VisionTest1" />
+        <activity android:name=".VisionTest2" />
+        <activity android:name=".VisionTest3" />
+        <activity android:name=".VisionTestResult" />
+        <activity android:name=".VisionTest4" />
+        <activity android:name=".VisionTest5" />
+        <activity android:name=".VisionTestFailed" />
+        <activity android:name=".VisionTestPassed" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".NearestOptometrist"
+            android:label="@string/title_activity_nearest_optometrist"
+            />
+        <activity android:name=".ColourBlindTest4" />
+        <activity android:name=".ColourBlindTest5" />
+        <activity android:name=".ColourBlindTest6" />
+        <activity android:name=".ColourBlindTestLowRisk" />
+        <activity android:name=".ColourBlindTestMediumRisk" />
+        <activity android:name=".VisionTest6" />
+        <activity android:name=".VisionTest7" />
+        <activity android:name=".VisionTest8" />
+        <activity android:name=".VisionTest9" />
+        <activity android:name=".VisionTest10" />
+        <activity android:name=".VisionTestDescription2" />
+        <receiver android:name=".MyBroadcastReceiver"/>
+        <receiver android:name=".MyBattery"/><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+
+    </application>
+
+</manifest>
